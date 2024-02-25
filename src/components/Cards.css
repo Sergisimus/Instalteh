@@ -7,6 +7,12 @@ h1 {
   text-align: center;
 }
 
+.about_us_container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
 .cards__container {
   display: flex;
   flex-flow: column;

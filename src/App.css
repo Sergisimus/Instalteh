@@ -43,3 +43,11 @@
   color: #fff;
   font-size: 100px;
 }
+
+@media  screen and (max-width: 960px) {
+  .services,
+  .projects,
+  .contact {
+    font-size: 50px;
+  }
+}
