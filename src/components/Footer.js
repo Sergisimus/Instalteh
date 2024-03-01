@@ -8,26 +8,32 @@ import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        {/* <p className='footer-subscription-heading'>
+      {/* <section className='footer-subscription'>
+        <p className='footer-subscription-heading'>
           Join the Adventure newsletter to receive our best vacation deals
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
-        </p> */}
+        </p> 
         <div className='input-areas'>
-          {/* <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            /> */}
-            <Button buttonStyle='btn--outline'>Contact Us</Button>
-          {/* </form> */}
+          <Button buttonStyle='btn--outline'>Contact Us</Button>   
         </div>
-      </section>
+      </section> */}
       <div className='footer-links'>
+        <div className='footer-link-wrapper'>
+          <div className='footer-link-items'>
+            <h2>Adresa:</h2>
+            <p>Bakarska 14, 51000 Rijeka</p>
+          </div>
+          <div className='footer-link-items'>
+            <h2>Phone:</h2>
+            <p>+385 91 252 8801</p><br/>
+            <p>+385 91 234 5678</p> 
+          </div>
+
+        </div>
+      </div>
+     {/*  <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
@@ -45,7 +51,7 @@ function Footer() {
             <Link to='/'>Sponsorships</Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
@@ -53,7 +59,7 @@ function Footer() {
               INSTALTEH
             </Link>
           </div>
-          <small className='website-rights'>INSTALTEH © 2020</small>
+          <small className='website-rights'>INSTALTEH © 2016</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'

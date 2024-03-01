@@ -5,9 +5,16 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>About Us</h1>
       <div className='about_us_container'>
-        Mi smo tim inženjera iz Rijeke koji iza sebe imaju mnoge projekte.
+        <h1>About Us</h1>
+        <div className='about_us_wrapper'>
+          <div className='about_us_text'>
+            Mi smo tim inženjera iz Rijeke koji iza sebe imaju mnoge projekte. <br></br>
+          </div>
+          <div className='about_us_image'>
+            <img src='images/img-1.jpg'></img>
+          </div>
+        </div>
       </div>
       <div className='cards__container'>
         <div className='cards__wrapper'>

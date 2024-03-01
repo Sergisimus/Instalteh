@@ -10,7 +10,28 @@ h1 {
 .about_us_container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   padding: 30px;
+  color: rgb(30, 30, 120);  
+}
+
+.about_us_wrapper {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
+.about_us_text {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: end;
+  border-right: 2px solid rgb(30, 30, 80);
+}
+
+.about_us_image img{
+  padding: 10px 0 10px 30px;
+  width: 600px;
 }
 
 .cards__container {
@@ -120,5 +141,21 @@ h1 {
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .about_us_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about_us_text {
+    border: none;
+  }
+
+  .about_us_image img {
+    width: 400px;
+    padding: 0px;
   }
 }
