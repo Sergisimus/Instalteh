@@ -1,5 +1,5 @@
 .cards {
-  padding: 4rem;
+  padding: 4rem 0;
   background: #fff;
 }
 
@@ -7,7 +7,7 @@ h1 {
   text-align: center;
 }
 
-.about_us_container {
+.card_container_1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -15,33 +15,43 @@ h1 {
   color: rgb(30, 30, 120);  
 }
 
-.about_us_wrapper {
+.card_wrapper {
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
 }
 
-.about_us_text {
+.card_text_1 {
   padding: 30px 20px;
   display: flex;
   justify-content: end;
-  border-right: 2px solid rgb(30, 30, 80);
+  /* border-right: 2px solid rgb(30, 30, 80); */
 }
 
-.about_us_image img{
+/* .about_us_image img{
   padding: 10px 0 10px 30px;
   width: 600px;
-}
+} */
 
-.cards__container {
+.card_container_2 {
+  background-color: #272727;
+  color: #fff;
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 5rem 0;
 }
+
+/* .card_container_1 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  margin: 6rem 0 ;
+} */
 
 .cards__wrapper {
   position: relative;
@@ -117,6 +127,7 @@ h1 {
 }
 
 .cards__item__info {
+  background-color: #fff;
   padding: 20px 30px 30px;
 }
 

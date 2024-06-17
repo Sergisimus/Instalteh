@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
+import ScrollToTop from '../ScrollTop';
 
 function Services() {
   return (
     <>
-      <h1 className='services'>SERVICES</h1>
-
+      <ScrollToTop></ScrollToTop>
+      <h1 className='services'>Usluge</h1>
       <Footer></Footer>
     </>
   )

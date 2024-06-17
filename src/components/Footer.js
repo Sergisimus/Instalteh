@@ -26,7 +26,7 @@ function Footer() {
             <p>Bakarska 14, 51000 Rijeka</p>
           </div>
           <div className='footer-link-items'>
-            <h2>Phone:</h2>
+            <h2>Telefon:</h2>
             <p>+385 91 252 8801</p><br/>
             <p>+385 91 234 5678</p> 
           </div>
