@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -38,7 +37,7 @@ function Footer() {
           <small className='website-rights'>INSTALTEH © 2016</small>
           <div className='social-icons'>
             <Link
-              className='social-icon-link facebook'
+              className='social-icon-link'
               to='/'
               target='_blank'
               aria-label='Facebook'
@@ -46,7 +45,7 @@ function Footer() {
             <FontAwesomeIcon icon={faFacebook} ></FontAwesomeIcon>
             </Link>
             <Link
-              className='social-icon-link instagram'
+              className='social-icon-link'
               to='/'
               target='_blank'
               aria-label='Instagram'
