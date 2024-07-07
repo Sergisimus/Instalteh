@@ -4,54 +4,30 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
   return (
     <div className='footer-container'>
-      {/* <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
-        </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
-        </p> 
-        <div className='input-areas'>
-          <Button buttonStyle='btn--outline'>Contact Us</Button>   
-        </div>
-      </section> */}
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>Adresa:</h2>
+            <h2>Adresa  <FontAwesomeIcon icon={faLocationDot} /></h2>
             <p>Bakarska 14, 51000 Rijeka</p>
           </div>
           <div className='footer-link-items'>
-            <h2>Telefon:</h2>
-            <p>+385 91 252 8801</p><br/>
+            <h2>Telefon <FontAwesomeIcon icon={faPhone} /></h2>
+            <p>+385 98 765 4321</p><br/>
             <p>+385 91 234 5678</p> 
           </div>
-
+          <div className='footer-link-items'>
+            <h2>Email <FontAwesomeIcon icon={faEnvelope}/></h2>
+            <p>john.doe@gmail.com</p> 
+          </div>
         </div>
       </div>
-     {/*  <div className='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div className='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/contact'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
-          </div>
-          <div className='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
-          </div>
-        </div>
-      </div> */}
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>

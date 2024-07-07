@@ -9,7 +9,7 @@ function Cards() {
         <h1>O nama</h1>
         <div className='card_wrapper'>
           <div className='card_text_1'>
-            Mi smo tim inženjera iz Rijeke koji iza sebe imaju mnoge projekte. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est la<br></br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est la<br></br>
           </div>
           <div className='card_image'>
             <CardItem
@@ -17,8 +17,8 @@ function Cards() {
               text='Kontaktirajte nas'
               label='Kontakt'
               path='/contact'
+              alt='Contact us'
             />
-            {/* <img src='images/img-1.jpg'></img> */}
           </div>
         </div>
       </div>
@@ -31,6 +31,7 @@ function Cards() {
                 text='Saznajte više o našim uslugama'
                 label='Usluge'
                 path='/services'
+                alt='Services'
               />
             </div>
             <div className='card_text_2'>
@@ -50,6 +51,7 @@ function Cards() {
               text='Saznajte više o našim projektima'
               label='Projekti'
               path='/projects'
+              alt='Projects'
             />
           </div>
         </div>

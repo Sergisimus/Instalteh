@@ -114,6 +114,7 @@
 
 .contact_form textarea {
   max-width: 100%;
+  min-height: 3em;
 }
 
 .contact_submit_button {
@@ -164,7 +165,7 @@
 @media screen and (max-width: 960px) {
   
   .contact_form {
-    width: 550px;
+    width: 500px;
     height: max-content;
    }
 }
